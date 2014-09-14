@@ -25,7 +25,16 @@ class ViewController: UIViewController {
 
   @IBAction func convertButtonPressed(sender: AnyObject) {
     let humanAge = humanAgeTextField.text.toInt()!
-    dogAgeLabel.text = "A \(humanAge) year old human is a \(humanAge * 7) years old in dog years."
+    var dogYears:Int
+    // Dog years = 10.5 for the first two years
+    // then four years for each year after
+    if (humanAge >= 2) {
+      dogYears = ((humanAge - 2) * 4) + 21
+    } else {
+      dogYears = humanAge * 10.5
+    }
+    
+    dogAgeLabel.text = "A \(humanAge) year old human is a \(dogYears) years old in dog years."
     dogAgeLabel.hidden = false
     humanAgeTextField.resignFirstResponder()
   }
