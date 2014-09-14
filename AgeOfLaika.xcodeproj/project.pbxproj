@@ -13,6 +13,7 @@
 		BEC9463519C54A83000F8E75 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC9463419C54A83000F8E75 /* Images.xcassets */; };
 		BEC9463819C54A83000F8E75 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEC9463619C54A83000F8E75 /* LaunchScreen.xib */; };
 		BEC9464419C54A83000F8E75 /* AgeOfLaikaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC9464319C54A83000F8E75 /* AgeOfLaikaTests.swift */; };
+		BEC9464E19C54A9C000F8E75 /*  Laika.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEC9464D19C54A9C000F8E75 /*  Laika.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,8 @@
 		BEC9463D19C54A83000F8E75 /* AgeOfLaikaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgeOfLaikaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC9464219C54A83000F8E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEC9464319C54A83000F8E75 /* AgeOfLaikaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeOfLaikaTests.swift; sourceTree = "<group>"; };
+		BEC9464D19C54A9C000F8E75 /*  Laika.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = " Laika.jpg"; sourceTree = "<group>"; };
+		BEC9464F19C54B90000F8E75 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +62,7 @@
 		BEC9461F19C54A83000F8E75 = {
 			isa = PBXGroup;
 			children = (
+				BEC9464F19C54B90000F8E75 /* README.md */,
 				BEC9462A19C54A83000F8E75 /* AgeOfLaika */,
 				BEC9464019C54A83000F8E75 /* AgeOfLaikaTests */,
 				BEC9462919C54A83000F8E75 /* Products */,
@@ -90,6 +94,7 @@
 		BEC9462B19C54A83000F8E75 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BEC9464D19C54A9C000F8E75 /*  Laika.jpg */,
 				BEC9462C19C54A83000F8E75 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -195,6 +200,7 @@
 				BEC9463319C54A83000F8E75 /* Main.storyboard in Resources */,
 				BEC9463819C54A83000F8E75 /* LaunchScreen.xib in Resources */,
 				BEC9463519C54A83000F8E75 /* Images.xcassets in Resources */,
+				BEC9464E19C54A9C000F8E75 /*  Laika.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
