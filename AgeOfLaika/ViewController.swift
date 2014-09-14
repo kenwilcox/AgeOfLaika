@@ -24,17 +24,17 @@ class ViewController: UIViewController {
   }
 
   @IBAction func convertButtonPressed(sender: AnyObject) {
-    let humanAge = humanAgeTextField.text.toInt()!
-    var dogYears:Int
+    let humanAge = humanAgeTextField.text.toInt().or(0)
+    var dogYears:Double
     // Dog years = 10.5 for the first two years
     // then four years for each year after
     if (humanAge >= 2) {
-      dogYears = ((humanAge - 2) * 4) + 21
+      dogYears = ((Double(humanAge) - 2) * 4) + 21
     } else {
-      dogYears = humanAge * 10.5
+      dogYears = Double(humanAge) * 10.5
     }
     
-    dogAgeLabel.text = "A \(humanAge) year old human is a \(dogYears) years old in dog years."
+    dogAgeLabel.text = "\(humanAge) human years is \(dogYears) dog years."
     dogAgeLabel.hidden = false
     humanAgeTextField.resignFirstResponder()
   }

@@ -14,6 +14,7 @@
 		BEC9463819C54A83000F8E75 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEC9463619C54A83000F8E75 /* LaunchScreen.xib */; };
 		BEC9464419C54A83000F8E75 /* AgeOfLaikaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC9464319C54A83000F8E75 /* AgeOfLaikaTests.swift */; };
 		BEC9464E19C54A9C000F8E75 /*  Laika.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEC9464D19C54A9C000F8E75 /*  Laika.jpg */; };
+		BEC9465119C55A00000F8E75 /* OptionalExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC9465019C55A00000F8E75 /* OptionalExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		BEC9464319C54A83000F8E75 /* AgeOfLaikaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeOfLaikaTests.swift; sourceTree = "<group>"; };
 		BEC9464D19C54A9C000F8E75 /*  Laika.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = " Laika.jpg"; sourceTree = "<group>"; };
 		BEC9464F19C54B90000F8E75 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BEC9465019C55A00000F8E75 /* OptionalExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			children = (
 				BEC9462D19C54A83000F8E75 /* AppDelegate.swift */,
 				BEC9462F19C54A83000F8E75 /* ViewController.swift */,
+				BEC9465019C55A00000F8E75 /* OptionalExt.swift */,
 				BEC9463119C54A83000F8E75 /* Main.storyboard */,
 				BEC9463419C54A83000F8E75 /* Images.xcassets */,
 				BEC9463619C54A83000F8E75 /* LaunchScreen.xib */,
@@ -219,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEC9463019C54A83000F8E75 /* ViewController.swift in Sources */,
+				BEC9465119C55A00000F8E75 /* OptionalExt.swift in Sources */,
 				BEC9462E19C54A83000F8E75 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
